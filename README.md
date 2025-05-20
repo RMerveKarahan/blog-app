@@ -1,3 +1,4 @@
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -10,3 +11,40 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+# 📝 React Comment System Project
+
+This is a React-based blog post detail and comment system project.
+
+Users can:
+- View existing comments
+- Add new comments
+- Edit or delete their own comments
+- Search/filter through comments
+- Receive input validation alerts
+
+## 🚀 Features
+
+- Post and comments are fetched from JSONPlaceholder API
+- User comments are stored in LocalStorage
+- Form validation with real-time alerts
+- Display total number of comments
+- "No comments yet" empty state message
+- Loading spinner while fetching data
+- Comment filtering by name or text
+
+## 🛠️ Tech Stack
+
+- React
+- React Router
+- Axios
+- LocalStorage
+- Basic CSS (inline styles)
+
+## 📦 Setup
+
+```bash
+git clone https://github.com/your-username/react-comment-system.git
+cd react-comment-system
+npm install
+npm start
