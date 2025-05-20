@@ -14,11 +14,9 @@ Users can:
 - Post and comments are fetched from JSONPlaceholder API
 - User comments are stored in LocalStorage
 - Form validation with real-time alerts
-- Emoji support in comment input
 - Display total number of comments
 - "No comments yet" empty state message
 - Loading spinner while fetching data
-- User avatars generated from name initials
 - Comment filtering by name or text
 
 ## 🛠️ Tech Stack
